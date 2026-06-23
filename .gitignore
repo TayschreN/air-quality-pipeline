@@ -1,0 +1,25 @@
+# credenciais — NUNCA sobe isso pro GitHub
+.env
+*.env
+credentials/
+~/.aws/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# dbt
+transformation/target/
+transformation/dbt_packages/
+transformation/logs/
+
+# airflow
+orchestration/logs/
+orchestration/plugins/
+
+# sistema
+.DS_Store
+Thumbs.db
